@@ -1,0 +1,194 @@
+
+div {
+    width: 900px;
+    height: 600px;
+}
+h2 {
+    text-align: center;
+    width: 900px;
+}
+body {
+    background-color: rgb(168, 226, 226);
+}
+
+
+/*Bandeira de Laos*/
+.laos {
+    background-color: rgb(206, 17, 38);
+    height: 600px;
+    width: 900px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+.laos > p {
+font-size: 5rem;
+margin: 0px;
+color: white;
+text-align: center;
+}
+.laos > div {
+background-color: rgb(0, 40, 104);
+height: 50%;
+width: 100%;
+position: absolute;
+top: 25%;
+}
+.laos > div > div {
+background-color: white;
+height: 200px;
+width: 200px;
+border-radius: 50%;
+position: absolute;
+left: 350px;
+top: 50px;
+}
+.laos > div p {
+font-size: 5rem;
+margin: 0px;
+text-align: center;
+}
+ 
+/* Bandeira do Japão */
+
+.japao {
+    background-color: white;
+    position: relative;   
+}
+.japao div {
+    background-color: #bc002d;
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    top: 120px;
+    left: 270px;
+    border-radius: 50%;
+}
+
+/* Bandeira da Finlândia */
+
+.finlandia {
+    background-color: #ffffff;
+    position: relative;
+}
+.finlandia .horizontal {
+    background-color: #003580;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 225px;
+}
+.finlandia .vertical {
+    background-color: #003580;
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    left: 225px;
+}
+
+/* Bandeira da Noruega */
+
+.norway {
+    background-color: #ef2b2d;
+    position: relative;
+}
+.norway  .secHorizontal {
+    background-color: #ffffff;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 225px;
+}
+.norway .secVertical {
+    background-color: #ffffff;
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    left: 225px;
+}
+.secHorizontal .horizontal {
+    background-color: #002868;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 35px;
+    z-index: 2;
+}
+.secVertical .vertical {
+    background-color: #002868;
+    height: 100%;
+    width: 80px;
+    position: absolute;
+    left: 35px;
+    z-index: 2;
+}
+
+/* Bandeira da Grécia */
+
+.grecia {
+    background-color: #ffffff;
+    position: relative;
+    z-index: -2;
+}
+.grecia > .horizontal {
+    background-color: #0d5eaf;
+    height: 66.66px;
+}
+.grecia .um {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+
+.grecia .dois {
+    position: absolute;
+    top: 133.32px;
+    z-index: -1;
+}
+
+.grecia .tres {
+    position: absolute;
+    top: 266.64px;
+    z-index: -1;
+}
+
+.grecia .quatro {
+    position: absolute;
+    top: 399.96px;
+    z-index: -1;
+}
+
+.grecia > .cinco {
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+}
+.grecia .quadradoAzul {
+    background-color:#0d5eaf;
+    height: 333.3px;
+    width: 333.3px;
+    position: relative;
+}
+
+.quadradoAzul .horizontal {
+    background-color: #ffffff;
+    height: 66.66px;
+    width: 100%;
+    position: absolute;
+    top: 133.32px;
+}
+
+.quadradoAzul .vertical {
+    background-color: #ffffff;
+    height: 100%;
+    width: 66.66px;
+    position: absolute;
+    left: 133.32px;
+}
+
+
+/* Rodapé */
+
+footer {
+    text-align: center;
+}
